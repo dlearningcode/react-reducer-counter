@@ -26,4 +26,4 @@ Create a simple counter application that allows users to increment, decrement, a
 
 ## Lessons Learned
 
-After the fiasco with my last context provider project, I knew immediately how to construct the components so that they could all pull the reducer's state from the context provider. The one thing I realized quickly from the reducer standpoint was that the state had a single key, of "count" in this project. I'm cautiously optimistic, because right now I'm feeling like I'm really understanding the basic principles of React. On to the next project!
+After the fiasco with my first context provider project, I knew immediately how to construct the components so that they could all pull the reducer's state from the context provider. The one thing I realized quickly from the reducer standpoint was that the state had a single key, of "count" in this project. I'm cautiously optimistic, because right now I'm feeling like I'm really understanding the basic principles of React. On to the next project!
