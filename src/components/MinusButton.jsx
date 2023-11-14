@@ -5,7 +5,7 @@ const MinusButton = () => {
     const { dispatch } = useContext(CounterContext);
 
     return (
-        <button onClick={() => dispatch({type: "minus"})}>Count Down</button>
+        <button className="count-button minus" onClick={() => dispatch({type: "minus"})}>Count Down</button>
     );
 }
 

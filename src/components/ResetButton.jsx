@@ -5,7 +5,7 @@ const ResetButton = () => {
     const { dispatch } = useContext(CounterContext);
 
     return (
-        <button onClick={() => dispatch({type: "reset"})}>Reset</button>
+        <button className="reset-button" onClick={() => dispatch({type: "reset"})}>Reset</button>
     );
 }
 
