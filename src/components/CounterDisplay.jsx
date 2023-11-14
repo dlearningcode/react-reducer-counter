@@ -5,11 +5,13 @@ const Counter = () => {
     const { state } = useContext(CounterContext);
 
     return (
-        <h2 className="counter">Count: 
-            <span className="counter-display">
-                {state.count}
-            </span>
-        </h2>
+        <div className="counter">
+            <h2>Count: {' '}
+                <span className="counter-display">
+                    {state.count}
+                </span>
+            </h2>
+        </div>
     );
 }
 

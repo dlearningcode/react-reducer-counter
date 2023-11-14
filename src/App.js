@@ -11,12 +11,14 @@ function App() {
       <CounterProvider>
         <header className="App-header">
           <h1>React Reducer Counter</h1>
-          <Counter />
-          <div className="buttons">
-            <PlusButton />
-            <MinusButton />
+          <div className='frame'>
+            <Counter />
+            <div className="buttons">
+              <PlusButton />
+              <MinusButton />
+            </div>
+            <ResetButton />
           </div>
-          <ResetButton />
         </header>
       </CounterProvider>
     </div>
