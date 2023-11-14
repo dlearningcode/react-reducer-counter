@@ -1,12 +1,12 @@
 import { useContext } from "react";
 import { CounterContext } from "../providers/CounterProvider";
 
-const PlusButton = () => {
+const MinusButton = () => {
     const { dispatch } = useContext(CounterContext);
 
     return (
-        <button onClick={() => dispatch({type: "plus"})}>Count Up</button>
+        <button onClick={() => dispatch({type: "minus"})}>Count Down</button>
     );
 }
 
-export default PlusButton;
+export default MinusButton;

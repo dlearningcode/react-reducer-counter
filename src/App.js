@@ -1,10 +1,22 @@
 import './App.css';
+import CounterProvider from './providers/CounterProvider';
+import Counter from './components/Counter';
+import PlusButton from './components/PlusButton';
+import MinusButton from './components/MinusButton';
+import ResetButton from './components/ResetButton';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <CounterProvider>
+        <header className="App-header">
+          <h1>React Reducer Counter</h1>
+          <Counter />
+          <PlusButton />
+          <MinusButton />
+          <ResetButton />
+        </header>
+      </CounterProvider>
     </div>
   );
 }
