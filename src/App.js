@@ -1,6 +1,6 @@
 import './App.css';
 import CounterProvider from './providers/CounterProvider';
-import Counter from './components/Counter';
+import Counter from './components/CounterDisplay';
 import PlusButton from './components/PlusButton';
 import MinusButton from './components/MinusButton';
 import ResetButton from './components/ResetButton';
